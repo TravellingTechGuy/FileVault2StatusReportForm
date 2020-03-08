@@ -1,0 +1,44 @@
+FILEVAULT STATUS REPORT FORM
+The following form can be used to share with a FileVault wizard in case you need help.
+He/she will ask for this information anyway: 
+
+Observed issue: 
+
+FileVault enablement method used: 
+
+Admin account used to run ‘sudo’ commands where needed: 
+
+GENERAL INFO: 
+-------------
+Output of ‘diskutil apfs listusers /‘ : 
+
+
+Output of ‘sudo fdesetup list -extended’:  
+
+
+Output of ‘fdesetup status’:  
+
+
+Output of ‘sudo fdesetup showdeferralinfo’:  
+
+
+Output of ‘sudo profiles status -type bootstraptoken’: 
+
+
+SPECIFIC USER SECURE TOKEN INFO:
+--------------------------------
+
+Output of ‘sysadminctl interactive -secureTokenStatus username’ :
+
+
+or when executing scripted or via ssh: 
+
+Output of‘sysadminctl -adminUser adminusername -adminPassword adminpassword -secureTokenStatus username’: 
+
+
+(Optional) Output of ‘dscl . -read /Users/username AuthenticationAuthority’: 
+
+
+
+
+ 
